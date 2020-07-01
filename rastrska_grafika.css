@@ -1,0 +1,92 @@
+body {
+    background-color: rgba(217, 247, 255, 1);
+    margin: 0;
+}
+
+
+.header {
+    background-color: rgba(255, 250, 191, 1);
+    padding: 30px;
+    text-align: center;
+  }
+
+.topnav {
+    overflow: hidden;
+    background-color:rgba(255, 166, 197, 1);
+    font-style: oblique;
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: rgba(179, 125, 144, 1);
+    color: black;
+  }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.row1 {
+    background-color:rgba(255, 166, 197, 1);
+    color: black;
+}  
+
+.footer {
+    background-color:rgba(255, 250, 191, 1);
+    padding: 10px;
+    text-align: center;
+  }
+
+h1, h2 {
+    color: rgba(179, 172, 96, 1);
+    text-align: center;
+    font-family: "Minion Pro SmBd";
+}
+
+h3 {
+    color: rgba(179, 172, 96, 1);
+    text-align: left;
+    font-family: "Minion Pro SmBd";
+    font-size: 14pt;
+}
+
+h4 {
+    font-family: "Minion Pro SmBd";
+    font-size: 10pt;
+    text-align: center;
+    color: black;
+    overflow: auto;
+}
+
+p {
+    font-family: "Minion Pro SmBd";
+    font-size: 10pt;
+    text-align: left;
+    color: black;
+    overflow: auto;
+}
+
+ul {
+    list-style-type: circle;
+    color: black;
+    margin-bottom: auto;
+    font-family: "Minion Pro SmBd";
+    font-size: 10pt;
+    text-align: left;
+}
